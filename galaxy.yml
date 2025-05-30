@@ -1,0 +1,32 @@
+namespace: fs
+name: pictest
+version: 1.0.0
+readme: README.md
+
+authors:
+  - plute <1064461892@qq.com>
+
+description: Example Ansible collection for picos automation.
+license:
+  - Apache-2.0
+
+tags:
+  - picos
+  - automation
+  - example
+
+dependencies: {}
+
+repository: https://github.com/101010000/ansible-picos
+documentation: https://101010000.github.io/ansible-picos
+homepage: https://101010000.github.io/ansible-picos
+issues: https://github.com/101010000/ansible-picos/issues
+
+build_ignore:
+  - .git
+  - '*.pyc'
+  - '*.retry'
+  - '*.tar.gz'
+  - .vscode
+  - .idea
+  - tests/
